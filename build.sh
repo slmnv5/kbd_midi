@@ -23,7 +23,8 @@ gcc -O2 -Wall -fPIC -fvisibility=hidden \
 
 if [ ! -f "$target_file" ]; then exit 1; fi
 
-cp -v "$target_file" ./../musiloop/bindir/ 
+# optional update
+cp -v "$target_file" ./../musiloop/bindir/ 2>/dev/null
 
 
 
