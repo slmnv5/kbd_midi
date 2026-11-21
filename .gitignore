@@ -1,0 +1,12 @@
+.DS_Store
+.vscode
+
+/kbd_midi*
+*.a
+*.o
+*.so
+*.dll
+*.bin
+*.exe
+
+
