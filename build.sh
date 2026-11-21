@@ -2,8 +2,9 @@
 
 clear
 
-cp -v ./../handy_string/handy_string.* ./src/
-cp -v ./../handy_list/handy_list.* ./src/
+# optional update
+cp -v ./../handy_string/handy_string.* ./src/ 2>/dev/null
+cp -v ./../handy_list/handy_list.* ./src/ 2>/dev/null
 
 rm -v *.so *.bin 2>/dev/null
 os=$(uname -s)
